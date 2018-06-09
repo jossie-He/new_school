@@ -1,0 +1,181 @@
+/*************
+ 日期：2017/09/25
+ 作者：老尚
+ 说明：产品详情页的css
+*/
+
+.wrap{
+	width:1308px;margin:0 auto;
+}
+
+/**/
+.leftDiv{
+	width:510px;margin:110px auto;
+}
+.leftDiv dt{
+	width:510px;height: 510px;clear: both;
+	border:1px solid #666;
+	position: relative;left:0;top: 0;
+}
+.leftDiv dt img{width:510px;height: 510px;}
+.leftDiv dt i{
+	display: block;width: 33px;height: 33px;
+	background: url('../img/widget/icons.png') no-repeat 0 -365px;
+	position: absolute;right: 1px;bottom: 0;z-index: 7;
+}
+.leftDiv dd{
+	display: block;
+}
+/**/
+.bigImgMask{
+	width:170px;height: 170px;background: #000;
+	opacity: 0.5;border:1px solid #f00;
+	position: absolute;top: 0;left: 0;
+	z-index: 8;cursor: move;
+}
+.localImgDetail{
+	width:510px;height: 510px;position: absolute;
+	overflow: hidden;top: -1px;right: -512px;
+	background: #fff;
+	border:1px solid #000;
+}
+
+/**/
+.smallImgList{
+	width:100%;height: 65px;margin-top: 20px;
+}
+.smallImgList ul{
+	width: 430px;height: 70px;float: left;
+}
+.smallImgList ul li{
+	width: 60px;height: 60px;float: left;margin-right: 15px;
+	border:2px solid #fff;
+}
+.smallImgList ul li img{width: 60px;height: 60px;}
+.smallImgList ul li:hover{
+	border:2px solid #f00;
+}
+
+/**/
+.rightDiv{
+	width:780px;float: right;
+}
+.productInfo{
+	width: 100%;clear: both;
+}
+.productInfo h1{
+	font-size: 30px;font-weight: bold;color: #000;
+	line-height: 30px;
+}
+.productInfo h2{
+	font-size: 20px;font-weight: normal;color: #f00;
+	line-height: 30px;
+}
+
+/**/
+
+.addressTabWrap{
+	width:396px;float: left;
+}
+.addressTitle{
+	display: block;height: 25px;padding:0 5px;
+	line-height: 25px;float: left;
+	margin-bottom: -1px;
+	border:1px solid #888;
+	background: #fff;
+	border-bottom: 0;cursor: pointer;
+
+}
+.addressTitle ul{float: left;}
+.addressTitle li{
+	float: left;margin-right: 5px;
+}
+.addressTitle i{
+	float: left;width: 13px;height: 13px;
+	background-image: url('../img/widget/icons.png');
+	background-repeat: no-repeat;
+	background-position: -3px -416px;
+	margin: 4px 0 0 0;
+}
+/**/
+.addressTabWrap .main{
+	width:376px;padding:25px 10px;
+	border:1px solid #888;
+	clear: both;
+}
+
+.addressTabWrap .main p{
+	height: 25px;line-height: 25px;
+	margin-bottom: 15px;
+
+	background-image: url('../img/widget/icons.png');
+	background-repeat: no-repeat;
+	background-position: 354px -411px;
+}
+
+.addressTabWrap .main ul{
+	display: block;clear: both;
+	width:374px;height: 24px;
+	border-bottom: 2px solid #EDD28B;
+	margin-bottom: 15px;
+}
+.addressTabWrap .main ul li{
+	float: left;height: 24px;line-height: 24px;
+	padding:0 11px;margin-right: 9px;
+	border:1px solid #ddd;
+	background: #fff;cursor: pointer;
+	color: #005AA0;font-weight: bold;
+}
+.addressTabWrap .main ul li.yellow{
+	float: left;height: 24px;line-height: 24px;
+	padding:0 11px;margin-right: 9px;
+	border:2px solid #EDD28B;
+	background: #fff;
+	border-bottom: 0;
+}
+
+.addressList{
+	clear: both;
+}
+.addressList p{
+	float: left;width:90px;height: 20px;text-align: left;
+	line-height: 20px;margin:0 13px 13px 0;
+}
+.addressList p:hover{
+	background: #eee;cursor: pointer;
+}
+
+/**/
+.addGoodsShop{
+	float: left;clear: both;margin:20px 0 0 70px;
+}
+.addGoodsShop .goodsNum{
+	width:54px;height: 48px;overflow: hidden;
+	border: 1px solid #ccc;position: relative;
+	float: left;
+}
+.addGoodsShop .goodsNum input{
+	width: 37px;height: 48px;float: left;
+	text-align: center;
+}
+.addGoodsShop .goodsNum label, .addGoodsShop .goodsNum span{
+	display: block;position: absolute;background: #F1F1F1;
+	color: #666;text-align: center;right: 0;
+	width:16px;height: 24px;line-height: 24px;
+	border-left: 1px solid #ccc;cursor: pointer;
+}
+.addGoodsShop .goodsNum label{
+	top: 0;border-bottom: 1px solid #ccc;z-index: 7;
+}
+.addGoodsShop .goodsNum span{bottom:0;}
+.addGoodsShop .goodsNum label:hover, .addGoodsShop .goodsNum span:hover{background: #DDDADA;}
+.addGoodsShop .addGoodsBtn{
+	width: 157px;height: 50px;float: left;background: #DF3033;
+	font-size: 20px;font-weight: bold;text-align: center;
+	color: #fff;margin-left: 11px;
+}
+
+#localImgDetailId img{
+	width: 1530px;height: 1530px;
+	position: absolute;left: 0;top: 0;
+}
