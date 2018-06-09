@@ -1,6 +1,6 @@
-import img1 from '../img/temp/1.png'
-import img2 from '../img/temp/2.png'
-import img3 from '../img/temp/3.jpg'
+import img1 from '../img/temp/1.png';
+import img2 from '../img/temp/2.png';
+import img3 from '../img/temp/3.jpg';
 
 export default (state=0, action) => {
 	switch( action.type ){
